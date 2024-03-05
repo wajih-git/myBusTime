@@ -1,0 +1,35 @@
+{
+  "version": "2.1.0",
+  "name": "myBusTime2",
+  "description": "Save favorite tfl bus station and display bus arrival times",
+  "launch_path": "/index.html",
+  "icons": {
+    "56": "/img/icons/icon60x60.png",
+    "112": "/img/icons/icon128x128.png"
+  },
+  "developer": {
+    "name": "Wajih",
+    "url": "http://www.opensource-iot.org"
+  },
+  "type" : "certified",
+  "permissions": {
+    "geolocation":{},
+    "geolocation-high-accuracy": {},
+    "geolocation-background":{},
+    "systemXHR":{}
+  },
+  "geolocation-noprompt": {
+    "substitute": ["geolocation"]
+},
+  "installs_allowed_from": [
+    "*"
+  ],
+  "locales": {
+    "en-US": {
+      "name": "MyBusTime2",
+      "description": "Save favorite tfl bus station and display bus arrival times",
+      "permissions": {}
+    }
+  },
+  "default_locale": "en-US"
+}

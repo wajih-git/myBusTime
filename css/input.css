@@ -1,0 +1,38 @@
+.input {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 0px;
+  position: relative;
+  padding-top: 0px;
+  color: #ee7a0d;
+  background-color: #0d0d0d;
+}
+
+.input input {
+  font-weight: 100;
+  font-size: 15px;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.input input:focus { outline: 1px solid blue;}
+
+
+.input label {
+  bottom: 0;
+  font-size: 15px;
+  color: #ee7a0d;
+  background-color: #0d0d0d;
+}
+
+.input input::placeholder {
+  color: transparent;
+}
+
+#status {
+  font-weight: 150;
+  font-size: 15px;
+  color: #ee7a0d;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #0d0d0d;
+}
